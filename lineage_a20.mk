@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit LineageOS common device config
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/samsung/a20/device.mk)
 
