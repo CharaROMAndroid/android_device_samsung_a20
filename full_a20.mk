@@ -28,3 +28,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a20cis-user 11 RP1A.200720.012 A205FNXXSBCWC3 release-keys" \
     BuildFingerprint=samsung/a20cis/a20:11/RP1A.200720.012/A205FNXXSBCWC3:user/release-keys
+
+# crDroid build flags
+TARGET_BOOT_ANIMATION_RES := 720
+
