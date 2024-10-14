@@ -18,7 +18,7 @@ $(call inherit-product, device/samsung/a20/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a20
-PRODUCT_NAME := lineage_a20
+PRODUCT_NAME := full_a20
 PRODUCT_MODEL := SM-A205F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
