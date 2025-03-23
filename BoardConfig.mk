@@ -15,6 +15,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4320133120 #4.02GB
 BOARD_CACHEIMAGE_PARTITION_SIZE := 157286400
 BOARD_VENDORIMAGE_PARTITION_SIZE := 452984832
 
+# Target SoC
+TARGET_SOC := exynos7884B
+
 # Inherit common board flags
 include device/samsung/exynos7885-common/BoardConfigCommon.mk
 
