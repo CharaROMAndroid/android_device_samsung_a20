@@ -26,14 +26,6 @@ vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
 vendor/lib64/libvideobeauty_interface.so
 
-# Gralloc
-vendor/lib/hw/gralloc.exynos7884B.so
-vendor/lib64/hw/gralloc.exynos7884B.so
-
-# HWC
-vendor/lib/hw/hwcomposer.exynos7884B.so
-vendor/lib64/hw/hwcomposer.exynos7884B.so
-
 # Fingerprint
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
