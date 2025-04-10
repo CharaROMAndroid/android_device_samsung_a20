@@ -49,10 +49,6 @@ vendor/lib64/libwrappergps.so
 vendor/lib/hw/gatekeeper.exynos7884B.so
 vendor/lib64/hw/gatekeeper.exynos7884B.so
 
-# Thermal
-vendor/lib/hw/thermal.universal7884B.so:vendor/lib/hw/thermal.exynos7884B.so
-vendor/lib64/hw/thermal.universal7884B.so:vendor/lib64/hw/thermal.exynos7884B.so
-
 # Media
 vendor/etc/mixer_gains.xml
 vendor/etc/mixer_paths.xml
