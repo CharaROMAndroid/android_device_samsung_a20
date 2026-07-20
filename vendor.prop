@@ -4,3 +4,6 @@ bluetooth.device.default_name=Galaxy A20
 # Fingerprint
 ro.vendor.fingerprint.type=rear
 ro.vendor.fingerprint.supports_gestures=true
+
+# CharaROM Unencryptable Flag
+ro.chararom.encryption=unsupported

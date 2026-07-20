@@ -29,7 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a20cis-user 11 RP1A.200720.012 A205FNXXSBCWC3 release-keys" \
     BuildFingerprint=samsung/a20cis/a20:11/RP1A.200720.012/A205FNXXSBCWC3:user/release-keys
 
-# crDroid build flags
+# CharaROM build flags
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_ENABLE_BLUR := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false

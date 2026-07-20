@@ -1,10 +1,10 @@
 [
   {
-    "repository": "crdroidandroid/android_vendor_samsung_a20",
+    "repository": "CharaROMAndroid/android_vendor_samsung_a20",
     "target_path": "vendor/samsung/a20"
   },
   {
-    "repository": "crdroidandroid/android_vendor_samsung_universal7885-common",
+    "repository": "CharaROMAndroid/android_vendor_samsung_universal7885-common",
     "target_path": "vendor/samsung/universal7885-common"
   },
   {
@@ -20,11 +20,11 @@
     "target_path": "prebuilts/clang/host/linux-x86/clang-vortex"
   },
   {
-    "repository": "crdroidandroid/android_device_samsung_universal7885-common",
+    "repository": "CharaROMAndroid/android_device_samsung_universal7885-common",
     "target_path": "device/samsung/universal7885-common"
   },
   {
-    "repository": "crdroidandroid/android_kernel_samsung_exynos7885",
+    "repository": "CharaROMAndroid/android_kernel_samsung_exynos7885",
     "target_path": "kernel/samsung/exynos7885"
   },
   {
@@ -44,9 +44,9 @@
     "target_path": "device/samsung_slsi/sepolicy"
   },
   {
-    "repository": "crdroidandroid/android_hardware_samsung",
+    "repository": "CharaROMAndroid/android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "branch": "15.0-a20"
+    "branch": "hershey-a20"
   },
   {
     "repository": "crdroidandroid/android_hardware_samsung_slsi-linaro_graphics",
