@@ -10,9 +10,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit LineageOS common device config
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/a20/device.mk)
 
@@ -33,6 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_ENABLE_BLUR := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_BLUR := false
 TARGET_SUPPORTS_CALL_RECORDING := true
