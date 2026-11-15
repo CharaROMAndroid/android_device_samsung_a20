@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <!-- A20's legacy SCSC Soft AP has no SAE support. This matches the existing Wifi
+         module default; keep it explicit for the narrowly scoped migration below. -->
+    <bool translatable="false" name="config_wifi_softap_sae_supported">false</bool>
+
+    <!-- Requires the Wifi module opt-in migration patch. Repair only persisted WPA2/WPA3
+         transition configs, preserving passwords. WPA3-only configs are never downgraded.
+         Not enabled in the shared Exynos7885 overlay: other devices are not verified. -->
+    <bool translatable="false"
+        name="config_wifiSoftapMigrateUnsupportedSaeTransitionConfig">true</bool>
+</resources>

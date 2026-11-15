@@ -1,0 +1,8 @@
+// Copyright (C) 2026 The CharaROM Project
+// SPDX-License-Identifier: Apache-2.0
+
+runtime_resource_overlay {
+    name: "A20WifiOverlay",
+    theme: "A20WifiOverlay",
+    vendor: true,
+}
