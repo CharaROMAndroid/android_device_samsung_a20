@@ -26,9 +26,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 # FM radio
-PRODUCT_PACKAGES += \
-    S5E7885FMRadio \
-    miku.dayo.hardware.fmradio-service
+# TODO: Re-enable when Royna's eureka_fm_legacy source is available.
+# PRODUCT_PACKAGES += \
+#     S5E7885FMRadio \
+#     miku.dayo.hardware.fmradio-service
 
 # Overlay
 # Requires the matching Wifi module resource/migration patch and fork manifest entry.
