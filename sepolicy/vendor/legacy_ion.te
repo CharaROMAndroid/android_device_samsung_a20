@@ -14,3 +14,6 @@ allow mediacodec ion_device:chr_file rw_file_perms;
 
 # Boot animation is a read-only legacy ION consumer.
 allow bootanim ion_device:chr_file r_file_perms;
+
+# Camera HAL allocates read/write legacy ION buffers.
+allow hal_camera_default ion_device:chr_file rw_file_perms;
