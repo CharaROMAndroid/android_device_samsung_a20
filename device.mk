@@ -44,3 +44,9 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
 # Extend ueventd through its existing ODM import without replacing common rules.
 PRODUCT_COPY_FILES += \
     device/samsung/a20/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc
+
+# Select the BPF variants supported by the legacy kernel backports.
+PRODUCT_PRODUCT_PROPERTIES += ro.bpf.kver_override=5.10.239
+
+# Skip optional shader priming on the legacy graphics stack.
+PRODUCT_SYSTEM_EXT_PROPERTIES += service.sf.prime_shader_cache=0
