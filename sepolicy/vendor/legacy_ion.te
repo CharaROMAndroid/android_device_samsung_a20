@@ -11,3 +11,6 @@ allow hal_codec2_client ion_device:chr_file r_file_perms;
 # These vendor consumers historically require read/write access.
 allow hal_graphics_composer_default ion_device:chr_file rw_file_perms;
 allow mediacodec ion_device:chr_file rw_file_perms;
+
+# Boot animation is a read-only legacy ION consumer.
+allow bootanim ion_device:chr_file r_file_perms;
