@@ -40,3 +40,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
     hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
+
+# Extend ueventd through its existing ODM import without replacing common rules.
+PRODUCT_COPY_FILES += \
+    device/samsung/a20/rootdir/etc/ueventd.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc

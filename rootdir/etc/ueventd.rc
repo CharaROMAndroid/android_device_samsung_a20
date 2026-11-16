@@ -1,0 +1,3 @@
+# Legacy ION allocator. Keep non-system callers read-only.
+# O_RDWR callers outside the system UID/GID need a separately reviewed change.
+/dev/ion    0664    system    system
