@@ -1,6 +1,9 @@
 # Copyright (C) 2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 
+# Device overlays take precedence over inherited common defaults.
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Inherit common device configuration
 $(call inherit-product, device/samsung/exynos7885-common/exynos7885-common.mk)
 
@@ -34,8 +37,6 @@ PRODUCT_COPY_FILES += \
 # Overlay
 # Requires the matching Wifi module resource/migration patch and fork manifest entry.
 PRODUCT_PACKAGES += A20WifiOverlay
-
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
