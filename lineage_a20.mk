@@ -35,3 +35,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_SUPPORTS_CALL_RECORDING := true
 
 # Background blur is unsupported; do not set TARGET_CAN_USE_BLUR.
+
+# Set Chaos Engineer Identifier
+CHARA_MAINTAINER := Chara
